@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.vlpetko.shedulerapi</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>checkbdapi</artifactId>
     <version>0.0.1</version>
     <name>shedulerapi</name>
     <description>Demo project for Spring Boot</description>

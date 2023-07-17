@@ -13,9 +13,9 @@ public class ScheduledService {
 
     private final UserRepository userRepository;
 
-    @Scheduled(cron = "0 */5 * * * *")
+    @Scheduled(cron = "0 */1 * * * *")
     public void getTimeEndRequests(){
 
-        log.info(String.valueOf(userRepository.count()));
+        log.info("Количество строк в dock_user = " + String.valueOf(userRepository.count()));
     }
 }

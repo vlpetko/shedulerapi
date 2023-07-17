@@ -12,6 +12,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Data
 @Builder
+@Table(name = "dock_user")
 public class DockUser {
 
     @Id
